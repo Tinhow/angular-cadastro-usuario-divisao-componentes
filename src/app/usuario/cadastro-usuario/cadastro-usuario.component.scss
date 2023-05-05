@@ -1,0 +1,30 @@
+.cadastro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-insercao-usuario{
+  max-width: 700px;
+  background-color: azure;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: solid 2px rgb(120 130 253);
+}
+
+.mat-form-simples {
+  margin-left:5px;
+}
+
+
+.bt{
+  display: flex;
+  justify-content: center;
+
+}
+
+.tituloLogin{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
