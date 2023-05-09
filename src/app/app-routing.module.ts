@@ -9,6 +9,10 @@ const routes: Routes = [
     component: CadastroUsuarioComponent
   },
   {
+    path: 'editausuario/:id',
+    component: CadastroUsuarioComponent
+  },
+  {
     path: 'listagemusuario',
     component: ListagemUsuarioComponent
   },

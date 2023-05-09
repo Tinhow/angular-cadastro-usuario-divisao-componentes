@@ -14,6 +14,8 @@ import { LayoutModule } from '../layout/layout.module';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatBadgeModule} from '@angular/material/badge';
+import { PipesModule } from '../pipes/pipes.module';
+import { RouterLink } from '@angular/router';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatCardModule,
     LayoutModule,
     FlexLayoutModule,
-    MatBadgeModule
+    MatBadgeModule,
+    PipesModule,
+    RouterLink
   ],
   exports: [CadastroUsuarioComponent,
     ListagemUsuarioComponent]
